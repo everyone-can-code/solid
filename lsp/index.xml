@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>LSP (Liskov Substitution Principle) on 5 SOLID Principles of Object-oriented Design</title>
+    <link>//localhost/solid/lsp/</link>
+    <description>Recent content in LSP (Liskov Substitution Principle) on 5 SOLID Principles of Object-oriented Design</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="//localhost/solid/lsp/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+  </channel>
+</rss>

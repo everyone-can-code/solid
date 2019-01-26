@@ -1,0 +1,57 @@
+[
+{
+	"uri": "//localhost/solid/srp/",
+	"title": "SRP (Single Responsibility Principle)",
+	"tags": [],
+	"description": "SRP (Single Responsibility Principle)",
+	"content": " SRP (Single Responsibility Principle) Bad: package srp.bad; public class Book { private String bookName; private String authorName; private String content; public Book(String bookName, String authorName, String content) { this.bookName = bookName; this.authorName = authorName; this.content = content; } public String getBookName() { return bookName; } public void setBookName(String bookName) { this.bookName = bookName; } public String getAuthorName() { return authorName; } public void setAuthorName(String authorName) { this.authorName = authorName; } public String getContent() { return content; } public void setContent(String content) { this.content = content; } public void show(IDevice device) { String text = String.format(\u0026quot;Name: %s, author: %s, content: %s\u0026quot;, this.bookName, this.authorName, this.content); device.display(text); } }  package srp.bad; interface IDevice { void display(String data); }  package srp.bad; public class WindowsConsole implements IDevice { public void display(String text){ System.out.println(text); } }  package srp.bad; public class Main { public static void main(String[] args) { Book book = new Book(\u0026quot;Book Name\u0026quot;, \u0026quot;Author Name\u0026quot;, \u0026quot;text text text\u0026quot;); IDevice device = new WindowsConsole(); book.show(device); } }  Good: package srp.good; public class Book { private String bookName; private String authorName; private String content; public Book(String bookName, String authorName, String content) { this.bookName = bookName; this.authorName = authorName; this.content = content; } public String getBookName() { return bookName; } public void setBookName(String bookName) { this.bookName = bookName; } public String getAuthorName() { return authorName; } public void setAuthorName(String authorName) { this.authorName = authorName; } public String getContent() { return content; } public void setContent(String content) { this.content = content; } }  package srp.bad; interface IDevice { void display(String data); }  package srp.bad; public class WindowsConsole implements IDevice { public void display(String text){ System.out.println(text); } }  package srp.good; public class BookDisplay { public void show(Book book, IDevice device) { String text = String.format(\u0026quot;Name: %s, author: %s, content: %s\u0026quot;, book.getBookName(), book.getAuthorName(), book.getContent()); device.display(text); } }  package srp.bad; public class Main { public static void main(String[] args) { Book book = new Book(\u0026quot;Book Name\u0026quot;, \u0026quot;Author Name\u0026quot;, \u0026quot;text text text\u0026quot;); IDevice device = new WindowsConsole(); BookDisplay bookDisplay = new BookDisplay(); bookDisplay.show(book, device); } }  Read More:  ?  "
+},
+{
+	"uri": "//localhost/solid/ocp/",
+	"title": "OCP (Open Closed Principle)",
+	"tags": [],
+	"description": "OCP (Open Closed Principle)",
+	"content": " OCP (Open Closed Principle) Read More:  ?  "
+},
+{
+	"uri": "//localhost/solid/lsp/",
+	"title": "LSP (Liskov Substitution Principle)",
+	"tags": [],
+	"description": "LSP (Liskov Substitution Principle)",
+	"content": " LSP (Liskov Substitution Principle) Read More:  https://dou.ua/lenta/articles/liskov-substitution-principle/  "
+},
+{
+	"uri": "//localhost/solid/isp/",
+	"title": "ISP (Interface segregation principle)",
+	"tags": [],
+	"description": "ISP (Interface segregation principle)",
+	"content": " ISP (Interface segregation principle) Read More:  ?  "
+},
+{
+	"uri": "//localhost/solid/dip/",
+	"title": "DIP (Dependency Inversion Principle)",
+	"tags": [],
+	"description": "DIP (Dependency Inversion Principle)",
+	"content": " DIP (Dependency Inversion Principle) Read More:  ?  "
+},
+{
+	"uri": "//localhost/solid/",
+	"title": "5 SOLID Principles of Object-oriented Design",
+	"tags": [],
+	"description": "",
+	"content": " 5 SOLID Principles of Object-oriented Design S (Single-responsiblity principle) One class should have one and only one responsibility\nO (Open-closed principle) Objects or entities should be open for extension, but closed for modification.\nL (Liskov substitution principle) Derived types must be completely substitutable for their base types.\nI (Interface segregation principle) Objects or entities should be open for extension, but closed for modification.\nD (Dependency Inversion Principle) Entities must depend on abstractions not on concretions.\nRead More:  https://www.slideshare.net/ptsukanov/solid-12138776 https://github.com/SanderV1992/SOLID-examples  "
+},
+{
+	"uri": "//localhost/solid/categories/",
+	"title": "Categories",
+	"tags": [],
+	"description": "",
+	"content": ""
+},
+{
+	"uri": "//localhost/solid/tags/",
+	"title": "Tags",
+	"tags": [],
+	"description": "",
+	"content": ""
+}]
