@@ -1,10 +1,10 @@
 <!DOCTYPE html>
-<html lang="en" class="js csstransforms3d">
+<html lang="ru" class="js csstransforms3d">
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-    <title>LSP (Liskov Substitution Principle)</title>
-    <meta name="description" content="LSP (Liskov Substitution Principle)">
+    <title>Tags</title>
+    <meta name="description" content="5 SOLID Principles of Object-oriented Design">
 
 
     <link rel="shortcut icon" href="/solid/images/favicon.png" type="image/x-icon" />
@@ -31,7 +31,7 @@
     </style>
     
   </head>
-  <body class="" data-url="/solid/lsp/">
+  <body class="" data-url="/solid/ru/tags/">
     <nav id="sidebar" class="">
 
 
@@ -49,7 +49,7 @@
 <script type="text/javascript" src="/solid/js/auto-complete.js?1548588308"></script>
 <script type="text/javascript">
     
-        var baseurl = "\/solid";
+        var baseurl = "\/solid\/ru";
     
 </script>
 <script type="text/javascript" src="/solid/js/search.js?1548588308"></script>
@@ -68,12 +68,12 @@
  
   
     
-    <li data-nav-id="/solid/srp/" title="SRP (Single Responsibility Principle)" class="dd-item
+    <li data-nav-id="/solid/ru/srp/" title="SRP (Single Responsibility Principle)" class="dd-item
         
         
         
         ">
-      <a href="/solid/srp/">
+      <a href="/solid/ru/srp/">
           <b>1. </b>SRP (Single Responsibility Principle)
           
       </a>
@@ -90,12 +90,12 @@
  
   
     
-    <li data-nav-id="/solid/ocp/" title="OCP (Open Closed Principle)" class="dd-item
+    <li data-nav-id="/solid/ru/ocp/" title="OCP (Open Closed Principle)" class="dd-item
         
         
         
         ">
-      <a href="/solid/ocp/">
+      <a href="/solid/ru/ocp/">
           <b>2. </b>OCP (Open Closed Principle)
           
       </a>
@@ -112,12 +112,12 @@
  
   
     
-    <li data-nav-id="/solid/lsp/" title="LSP (Liskov Substitution Principle)" class="dd-item
-        parent
-        active
+    <li data-nav-id="/solid/ru/lsp/" title="LSP (Liskov Substitution Principle)" class="dd-item
+        
+        
         
         ">
-      <a href="/solid/lsp/">
+      <a href="/solid/ru/lsp/">
           <b>3. </b>LSP (Liskov Substitution Principle)
           
       </a>
@@ -134,12 +134,12 @@
  
   
     
-    <li data-nav-id="/solid/isp/" title="ISP (Interface segregation principle)" class="dd-item
+    <li data-nav-id="/solid/ru/isp/" title="ISP (Interface segregation principle)" class="dd-item
         
         
         
         ">
-      <a href="/solid/isp/">
+      <a href="/solid/ru/isp/">
           <b>4. </b>ISP (Interface segregation principle)
           
       </a>
@@ -156,12 +156,12 @@
  
   
     
-    <li data-nav-id="/solid/dip/" title="DIP (Dependency Inversion Principle)" class="dd-item
+    <li data-nav-id="/solid/ru/dip/" title="DIP (Dependency Inversion Principle)" class="dd-item
         
         
         
         ">
-      <a href="/solid/dip/">
+      <a href="/solid/ru/dip/">
           <b>5. </b>DIP (Dependency Inversion Principle)
           
       </a>
@@ -213,7 +213,7 @@
                   
                     
                     
-                      <option id="en" value="/solid/lsp/" selected>English</option>
+                      <option id="en" value="/solid/tags/">English</option>
                     
                   
               
@@ -223,7 +223,7 @@
                   
                     
                     
-                      <option id="ru" value="/solid/ru/lsp/">Russian</option>
+                      <option id="ru" value="/solid/ru/tags/" selected>Russian</option>
                     
                   
               
@@ -273,30 +273,33 @@
                         </a>
                     </span>
                   
+                  <span id="toc-menu"><i class="fa fa-list-alt"></i></span>
+                  
                   <span class="links">
                     
           
           
-            
-            
-          
-          
-            <a href='/solid/'>5 SOLID Principles of Object-oriented Design</a> > LSP (Liskov Substitution Principle)
-          
-         
+            Tags
           
            
                   </span>
                 </div>
+                
+                    <div class="progress">
+    <div class="wrapper">
+
+    </div>
+</div>
+
                 
               </div>
             </div>
             
 
         
-          <div id="chapter">
-        
         <div id="body-inner">
+          
+            <h1>Tags</h1>
           
 
         
@@ -304,49 +307,10 @@
 
 
 
-<h2 id="lsp-liskov-substitution-principle">LSP (Liskov Substitution Principle)</h2>
-
-<hr />
-
-<p><img src="lsp.jpg" alt="lsp" />
-Liskov&rsquo;s notion of a behavioural subtype defines a notion of substitutability for objects; that is, if S is a subtype of T, then objects of type T in a program may be replaced with objects of type S without altering any of the desirable properties of that program (e.g. correctness).</p>
-
-<hr />
-
-<h4 id="the-lsp-principles-are-followed-in-the-following-cases">The LSP principles are followed in the following cases:</h4>
-
-<ul>
-<li>
-No new exceptions should be thrown by methods of the subtype, except where those exceptions are themselves subtypes of exceptions thrown by the methods of the supertype.</li>
-<li>does not violate the functionality</li>
-<li>returns the same type</li>
-<li>subclass object has a contract with a superclass</li>
-</ul>
-
-<h4 id="the-lsp-principle-is-violated-in-the-following-cases">The LSP principle is violated in the following cases:</h4>
-
-<ul>
-<li>the parent class in the method calls some kind of external service,
-   and the child completely rewrites the method.</li>
-</ul>
-
-<hr />
-
-<h4 id="read-more">Read More:</h4>
-
-<ul>
-<li><a href="https://github.com/SanderV1992/SOLID-examples/tree/master/src/lsp/good">https://github.com/SanderV1992/SOLID-examples/tree/master/src/lsp/good</a></li>
-<li><a href="https://dou.ua/lenta/articles/liskov-substitution-principle/">https://dou.ua/lenta/articles/liskov-substitution-principle/</a></li>
-<li><a href="https://ru.wikipedia.org/wiki/%D0%9F%D1%80%D0%B8%D0%BD%D1%86%D0%B8%D0%BF_%D0%BF%D0%BE%D0%B4%D1%81%D1%82%D0%B0%D0%BD%D0%BE%D0%B2%D0%BA%D0%B8_%D0%91%D0%B0%D1%80%D0%B1%D0%B0%D1%80%D1%8B_%D0%9B%D0%B8%D1%81%D0%BA%D0%BE%D0%B2">https://ru.wikipedia.org/</a></li>
-</ul>
-
-
 <footer class=" footline" >
 	
 </footer>
 
-        
-            </div> 
         
         </div> 
         
@@ -413,26 +377,6 @@ No new exceptions should be thrown by methods of the subtype, except where those
             
                 
                     
-                    
-                
-                
-
-                    
-                    
-                    
-
-                    
-            
-        
-                    
-                        
-            
-            
-                
-                    
-                        
-                        
-                    
                 
                 
 
@@ -460,6 +404,22 @@ No new exceptions should be thrown by methods of the subtype, except where those
             
         
                     
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
             
         
         
@@ -467,10 +427,8 @@ No new exceptions should be thrown by methods of the subtype, except where those
 
 
         
-            <a class="nav nav-prev" href="/solid/ocp/" title="OCP (Open Closed Principle)"> <i class="fa fa-chevron-left"></i></a>
         
-        
-            <a class="nav nav-next" href="/solid/isp/" title="ISP (Interface segregation principle)" style="margin-right: 0px;"><i class="fa fa-chevron-right"></i></a>
+            <a class="nav nav-next" href="/solid/ru/srp/" title="SRP (Single Responsibility Principle)" style="margin-right: 0px;"><i class="fa fa-chevron-right"></i></a>
         
     </div>
 

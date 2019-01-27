@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>//localhost/solid/ru/srp/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="//localhost/solid/srp/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ru"
+                href="//localhost/solid/ru/srp/"
+                />
+  </url>
+  
+  <url>
+    <loc>//localhost/solid/ru/ocp/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="//localhost/solid/ocp/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ru"
+                href="//localhost/solid/ru/ocp/"
+                />
+  </url>
+  
+  <url>
+    <loc>//localhost/solid/ru/lsp/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="//localhost/solid/lsp/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ru"
+                href="//localhost/solid/ru/lsp/"
+                />
+  </url>
+  
+  <url>
+    <loc>//localhost/solid/ru/isp/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="//localhost/solid/isp/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ru"
+                href="//localhost/solid/ru/isp/"
+                />
+  </url>
+  
+  <url>
+    <loc>//localhost/solid/ru/dip/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="//localhost/solid/dip/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ru"
+                href="//localhost/solid/ru/dip/"
+                />
+  </url>
+  
+  <url>
+    <loc>//localhost/solid/ru/</loc>
+    <priority>0</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="//localhost/solid/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ru"
+                href="//localhost/solid/ru/"
+                />
+  </url>
+  
+  <url>
+    <loc>//localhost/solid/ru/categories/</loc>
+    <priority>0</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="//localhost/solid/categories/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ru"
+                href="//localhost/solid/ru/categories/"
+                />
+  </url>
+  
+  <url>
+    <loc>//localhost/solid/ru/tags/</loc>
+    <priority>0</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="//localhost/solid/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ru"
+                href="//localhost/solid/ru/tags/"
+                />
+  </url>
+  
+</urlset>
