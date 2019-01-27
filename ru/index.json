@@ -39,7 +39,7 @@
 	"title": "5 SOLID Principles of Object-oriented Design",
 	"tags": [],
 	"description": "",
-	"content": ""
+	"content": " 5 SOLID Principles of Object-oriented Design S (Single-responsiblity principle) One class should have one and only one responsibility\nO (Open-closed principle) Objects or entities should be open for extension, but closed for modification.\nL (Liskov substitution principle) Derived types must be completely substitutable for their base types.\nI (Interface segregation principle) Objects or entities should be open for extension, but closed for modification.\nD (Dependency Inversion Principle) Entities must depend on abstractions not on concretions.\nRead More:  https://www.slideshare.net/ptsukanov/solid-12138776 https://github.com/SanderV1992/SOLID-examples  "
 },
 {
 	"uri": "//localhost/solid/ru/categories/",
